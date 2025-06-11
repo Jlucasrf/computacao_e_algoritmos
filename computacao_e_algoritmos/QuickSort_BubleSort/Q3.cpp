@@ -7,7 +7,7 @@ using namespace std;
 
 vector<int> gerarVetorAleatorio(int tamanho, int min, int max) {
     vector<int> vetor;
-    srand(time(0));  // Inicializar a semente
+    srand(time(0));  
     for (int i = 0; i < tamanho; i++) {
         vetor.push_back(rand() % (max - min + 1) + min);
     }
